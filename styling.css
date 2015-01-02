@@ -1,0 +1,30 @@
+/** styling that I used in cartodb */
+
+
+#all_t [ yearbuilt <= 2013] {
+   marker-fill: #BD0026;
+}
+#all_t [ yearbuilt <= 1974] {
+   marker-fill: #F03B20;
+}
+#all_t [ yearbuilt <= 1958] {
+   marker-fill: #FD8D3C;
+}
+#all_t [ yearbuilt <= 1930] {
+   marker-fill: #FECC5C;
+}
+#all_t [ yearbuilt <= 1899] {
+   marker-fill: #FFFFB2;
+  marker-line-color: #000000;
+
+}
+
+
+#all_t{
+  marker-fill-opacity: 1;
+  marker-line-width: 0.5;
+  marker-line-opacity: 0.4;
+  marker-width: 8;
+  marker-fill: #FFFFB2;
+  marker-allow-overlap: true;
+}
